@@ -29,8 +29,8 @@ jobs:
       - name: Deploy to Elastic Beanstalk
         uses: einaregilsson/beanstalk-deploy@v21
         with:
-          application_name: "react"          
-          environment_name: "React-env"     
+          application_name: "docker"          
+          environment_name: "Docker-env"     
           region: "eu-central-1"
           use_existing_version_if_available: true               
           version_label: "v-${{ github.sha }}" 
