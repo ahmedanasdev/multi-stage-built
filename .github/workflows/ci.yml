@@ -23,8 +23,8 @@ jobs:
         uses: einaregilsson/beanstalk-deploy@v21
         with:
           application_name: "docker"
-          environment_name: "docker-env"
-          region: "us-east-1"
+          environment_name: "Docker-env"
+          region: "eu-central-1" #frankfurt
           version_label: "v-${{ github.sha }}"
           deployment_package: "."
         env:
