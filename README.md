@@ -1,3 +1,14 @@
+# React App Deployment on AWS Elastic Beanstalk (Docker)
+
+## 📖 Overview
+This project is a **React application** containerized with **Docker** and deployed on **AWS Elastic Beanstalk**.  
+It shows how to build, containerize, and run a frontend app in a scalable environment.
+
+☁️ Deploy on AWS Elastic Beanstalk using github actions
+<img width="1859" height="957" alt="image" src="https://github.com/user-attachments/assets/cd214b92-48c8-443d-94c1-306bc576d312" />
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
